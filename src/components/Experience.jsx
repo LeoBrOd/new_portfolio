@@ -64,7 +64,7 @@ const Experience = () => {
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
+          Work Experience
         </h2>
       </motion.div>
 
@@ -77,6 +77,9 @@ const Experience = () => {
             />
           ))}
         </VerticalTimeline>
+        <a className={`${styles.sectionSubText} text-center`} 
+        href="..\CV_Brodskyi_Leonid.docx" 
+        download>Download CV</a>
       </div>
     </>
   );
